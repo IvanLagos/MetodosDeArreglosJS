@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="aasets/css/styles.css">
+</head>
+<body>
+
+  <h1>Todo List</h1>
+  
+  <hr>
+
+  <section class="resumen">
+    <p>Total: <span id="total">0</span></p>
+    <p>Realizadas: <span id="realizadas">0</span></p>
+    <p>Por hacer: <span id="porHacer">0</span></p>
+  </section>
+  
+  <section class="acciones">
+    <input id="descripcion" type="text" placeholder="Descripción de la tarea..." />
+    <button id="agregar">Agregar tarea</button>
+  </section>
+  
+  <section class="tareasTotales">
+    <ul id="tareas"></ul>
+    <p id="vacio" class="empty" style="display:none;">Agrega tu primera tarea!</p>
+  </section>
+    
+  <script defer src="aasets/js/index.js"></script>
+
+</body>
+</html>

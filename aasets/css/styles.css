@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 4rem;
+  background-color: rgb(54, 54, 59);
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+}
+
+hr {
+    margin-bottom: 2rem;
+}
+
+.resumen {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.resumen p {
+  font-size: 20px;
+}
+
+.acciones {
+  display: flex;
+}
+
+#descripcion {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+
+#agregar {
+  padding: 8px 10px;
+  margin-left: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+#agregar:hover {
+  background: #9fa0a0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.desc.done {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.id {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.empty {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.tareasTotales {
+    color: white;
+    font-size: 20px;
+}
+
+button.btn {
+  padding: 6px 8px;
+  border: 1px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-del {
+    color: red;
+}
+
+.btn-del:hover { 
+    background-color: rgb(144, 2, 2); 
+}
+
+.btn-add {
+    color: rgb(40, 181, 38);
+}
+
+.btn-add:hover { 
+    background-color: green; 
+}
